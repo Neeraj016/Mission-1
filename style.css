@@ -50,21 +50,39 @@ body {
   }
   
 .hero__container {
-    width: 100%;
+    margin-top: 30px;
   }
 .hero__image__container {
     width: 100%;
+    position: relative;
+
     
   }
   
 .hero__image {
-    width: 100%;
-  }
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
 
 .hero__text {
-    font-size: 30px;
-    color: #1d3557;
-    margin: 20px 0;
+  font-size: 30px;
+  color: #1d3557;
+  margin: 20px 0;
+  }
+
+  .hero__bgpattern{
+  position: absolute;
+  width: 100%;
+  z-index: 4;  
+  }
+  .hero__shape{
+  width: 100%;
+  z-index: 3;
   }
   
   /* Menu Styles */
